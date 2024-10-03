@@ -1,0 +1,14 @@
+
+16 min
+
+=================================
+- za jdk11
+
+- prvo u pom.xml 
+	komentarisi dependency: spring-boot-starter-data-jpa
+	 inace nece da radi
+	  
+ - run as: Spring Boot Ap
+ - radi
+ 
+ 
