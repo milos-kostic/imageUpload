@@ -1,8 +1,42 @@
 
-16 min
+  30 min
+ 
+ 	
+ 	>'access denied for user 'root'@'localhost'
+ 	
+ 	PRORADILO JE KAD SAM SKINUO LOZINKU SA MYSQL ROOT USERA.
+ 	TJ POSTAVIO LOZINKU NA ""
+ 	
+ 	vrv je ovo:
+ 	Authentication Method: In recent versions of MySQL, 
+ 	the default authentication method may differ. 
+ 	If you are using 
+ 	MySQL 8.0 or later, you might need to check if the root user is set 
+ 	to use the caching_sha2_password plugin, 
+ 	which can cause compatibility issues with some applications. 
+ 	You can change it to mysql_native_password like this:
+ 	
 
+sql
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';
+
+
+---------------
+mysql u workbenchu:
+
+create database imageDB;
+show databases;
+use imageDB;
+show tables;
+ 
+ > tabele ce unositi iz koda: Entity, Student.java, @Id, @GeneratedValue...
+-------------------
+
+> slike se smestaju u:
+	> src>main>webap>images (webap i images su dodati folderi za ovu namenu)
 =================================
-- za jdk11
+- app radjena za jdk11
 
 - prvo u pom.xml 
 	komentarisi dependency: spring-boot-starter-data-jpa
