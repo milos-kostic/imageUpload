@@ -40,7 +40,7 @@ show tables;
 > slike se smestaju u:
 	> src>main>webap>images (webap i images su dodati folderi za ovu namenu)
 =================================
-- app radjena za jdk11
+- app radjena za jdk11 ili 17
 
 - prvo u pom.xml 
 	za prvo pokretanje:
