@@ -43,6 +43,7 @@ show tables;
 - app radjena za jdk11
 
 - prvo u pom.xml 
+	za prvo pokretanje:
 	komentarisi dependency: spring-boot-starter-data-jpa
 	 inace nece da radi
 	  
