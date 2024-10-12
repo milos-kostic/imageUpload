@@ -1,6 +1,7 @@
 package com.tarun.imageUpload.entity;
 
-import java.util.Date;
+import java.sql.Date; // ovde je Postman javljao gresku: 
+//						 rejected value kad je bilo: java.util.Date;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
