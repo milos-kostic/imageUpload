@@ -1,4 +1,22 @@
 
+link:
+https://www.youtube.com/watch?v=vOWcbY7sjGM&t=975s
+
+
+ 46.05 min
+ 	
+
+--------------------
+ 34 min
+ 
+ 	> radi:
+ 		TREBALO JE DODATI GETERE I SETERE U Student.java
+ 	bio je problem:
+ 	- postman: post method:
+ 		Hibernate: insert into student (address,dob,name,profile_image,id) values (?,?,?,?,?)
+ 		>> u bazu unese sve null vrednosti
+ 		
+-------------
   30 min
  
  	
@@ -36,9 +54,10 @@ show tables;
 > slike se smestaju u:
 	> src>main>webap>images (webap i images su dodati folderi za ovu namenu)
 =================================
-- app radjena za jdk11
+- app radjena za jdk11 ili 17
 
 - prvo u pom.xml 
+	za prvo pokretanje:
 	komentarisi dependency: spring-boot-starter-data-jpa
 	 inace nece da radi
 	  
