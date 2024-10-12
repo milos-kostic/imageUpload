@@ -25,6 +25,9 @@ public class HomeController {
 	@PostMapping("/saveData")
 	public Student saveStudent(@RequestBody Student student) {
 		Student savedStudentData = studentService.saveStudentData(student);
+		
+		// System.out.println(student.getName());
+		
 		return savedStudentData; // "Student data saved successfully";
 	}
 }

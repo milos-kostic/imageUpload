@@ -3,6 +3,16 @@ link:
 https://www.youtube.com/watch?v=vOWcbY7sjGM&t=975s
 
 
+ 34 min
+ 
+ 	> radi:
+ 		TREBALO JE DODATI GETERE I SETERE U Student.java
+ 	bio je problem:
+ 	- postman: post method:
+ 		Hibernate: insert into student (address,dob,name,profile_image,id) values (?,?,?,?,?)
+ 		>> u bazu unese sve null vrednosti
+ 		
+-------------
   30 min
  
  	
